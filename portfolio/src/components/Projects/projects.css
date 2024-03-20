@@ -1,6 +1,6 @@
 #projects {
     margin: 0 auto;
-    /* min-height: calc(100vw - 5rem); */
+    /* min-height: calc(100vh - 5rem); */
     width: 100vw;
     max-width: 65rem;
     display: flex;
