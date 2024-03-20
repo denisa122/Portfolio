@@ -18,37 +18,6 @@
     text-align: center;
 }
 
-#experience {
-    margin: 1.5rem;
-    width: 100vw;
-    max-width: 90%;
-}
-
-.experienceDescription {
-    font-size: 1rem ;
-    font-weight: 300;
-    display: flex;
-    margin: 1rem;
-    padding: 1.5rem 2rem;
-    border-radius: 0.5rem;
-    background-color: rgb(50, 50, 50);
-    text-align: justify;
-}
-
-/* .experienceImgs {
-    margin: 1rem 0;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.experienceImg {
-    object-fit: cover;
-    width: 800px;
-    min-width: 9rem;
-    margin: auto;
-    padding: 0.25rem;
-} */
-
 .contactDescription {
     padding: 1rem;
     font-size: 1rem;
