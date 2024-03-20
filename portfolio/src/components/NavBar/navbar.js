@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import './navbar.css';
 import {Link} from 'react-scroll';
+import './navbar.css';
+
 
 import logo from '../../assets/Denisa Neagulogo.svg';
 import contactImg from '../../assets/contactImg.png';
