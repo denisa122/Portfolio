@@ -1,0 +1,46 @@
+#projects {
+    margin: 0 auto;
+    /* min-height: calc(100vw - 5rem); */
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.projectsTitle {
+    margin: 1.5rem 0;
+    font-size: 3rem;
+}
+
+.projectsDescription {
+    font-size: 1rem;
+    font-weight: 300;
+    max-width: 52rem;
+}
+
+.projectsImgs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    max-width: 65rem;
+}
+
+.projectsImg {
+    object-fit: cover;
+    height: 20rem;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+/* Check the final max-width when I upload the final photos*/
+@media screen and (max-width:700px) {
+    .projectsImg {
+        height: 48vw;
+    }
+}
