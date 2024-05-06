@@ -1,6 +1,6 @@
 #contactPage {
     margin: 0 auto;
-    /* min-height: calc(100vh - 5rem); */
+    min-height: calc(100vh - 5rem);
     width: 100vw;
     max-width: 65rem;
     text-align: center;
@@ -52,6 +52,7 @@
     border-radius: 0.5rem;
     margin: 2rem;
     padding: 0.75rem 3.5rem;
+    cursor: pointer;
 }
 
 .links {
@@ -64,4 +65,5 @@
     height: 3rem;
     width: 3rem;
     margin: 0 0.75rem;
+    cursor: pointer;
 }
