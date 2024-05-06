@@ -9,30 +9,47 @@ const Skills = () => {
   return (
     <section id='skills'>
         <span className='skillTitle'>About me</span>
-        <span className='skillDescription'>I am a team player, the kind of person who is always there to give a hand and who tries to help to the best of my abilities in every situation. My friends describe me as a cheerful, loyal person who always gives great advice and comes up with a crazy solution for everything!</span> /** Change this */
+        <span className='skillDescription'>
+        Let me introduce myself.
+        I hold an AP Degree in Computer Science, a testament to my journey in the world of technology so far. 
+        Currently, I’m on a path of furthering my knowledge through a Top Up Bachelor’s program in Web Development, at Erhvervsakademi SydVest. <br></br><br></br>
+        My educational journey has been diverse, offering me a comprehensive understanding of the digital landscape. 
+        From delving into the subjects of both front-end and back-end development, to shaping seamless user experiences, to designing and implementing robust databases, I’ve traversed various domains. 
+        Each experience has enriched my skill set, nurturing a passion for crafting exceptional digital solutions.
+        </span>
         <div className='skillBars'>
             <div className='skillBar'>
                 <img src={codingSkill} alt="coding icon" className='skillBarImg'/>
                 <div className='skillBarText'>
-                    <h2>Coding skills</h2>
-                    <p>As an aspiring front-end developer, I have become familiar with the programming languages HTML, CSS and Javascript. Throughout my studies, 
-                        I have also had experience with back-end development of projects using C, C# or Java as the programming language.</p>  /** Change this */
+                    <h2>Technical Proficiency</h2>
+                    <p>
+                    In my journey as a front-end developer, I’ve cultivated proficiency in core web technologies such as HTML, CSS and JavaScript, allowing me to craft engaging and interactive user interfaces. 
+                    Furthermore, I've delved into back-end development, using languages like C#, Java, and PHP to build robust and scalable systems. My exposure to RESTful APIs, databases like MongoDB and SQL, 
+                    and frameworks such as React.js and ASP.NET MVC has broadened my technical repertoire, equipping me to tackle diverse challenges in web development.
+                    </p>
                 </div>
             </div>
             <div className='skillBar'>
                 <img src={personSkill} alt="person icon" className='skillBarImg'/>
                 <div className='skillBarText'>
-                    <h2>Personal skills</h2>
-                    <p>I like to think that I am a person who knows how to communicate well, especially when working in a team made of people with different characters. Working on my previous projects has shown me that I can adapt quickly to change 
-                        and I have no trouble making important decisions when I need to. I always strive for the best possible result and my strong will often pushes me out of my comfort zone.</p> /** Change this */
+                    <h2>Interpersonal Skills</h2>
+                    <p>
+                    Effective communication lies at the heart of successful collaboration, and I pride myself on my ability to foster meaningful connections within multidisciplinary teams. 
+                    Adaptable by nature, I embrace change as an opportunity for growth and thrive in environments that demand quick decision-making and agile thinking. 
+                    My ambition drives me to always push my boundaries in an effort to deliver results that exceed expectations. 
+                    Armed with strong analytical skills, I tackle every task with determination and a solution-oriented approach.
+                    </p> 
                 </div>
             </div>
             <div className='skillBar'>
                 <img src={growSkill} alt="progress icon" className='skillBarImg'/>
                 <div className='skillBarText'>
-                    <h2>A work in progress</h2>
-                    <p>I am currently taking a web development course, which I believe will help me improve my skills and gain new knowledge - therefore making me more confident in my front-end skills.
-                        In the future, I would like to explore my artistic side more by, for example, taking an illustration course and later using it to create more unique web pages.</p> 
+                    <h2>Continuous Growth and Development</h2>
+                    <p>
+                    My journey in web development is an ongoing evolution, marked by a continuous pursuit of growth and learning. 
+                    Currently enrolled in a web development course, I'm eager to deepen my understanding and refine my skills, confident that each new challenge brings valuable insights and expertise. 
+                    By embracing curiosity and seizing opportunities for self-improvement, I aim to walk down a path that is as fulfilling as it is rewarding.
+                    </p> 
                 </div>
             </div>
         </div>
