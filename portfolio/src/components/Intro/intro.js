@@ -12,9 +12,15 @@ const Intro = () => {
             <span className='hello'>Hello,</span>
             <span className='introText'>I'm <span className='introName'>Denisa</span> <br/> Web Development Student</span>
             <p className='introPara'>
-                Think about text to put here
+            As I embark on my journey to become a proficient web developer, I'm eagerly seeking opportunities to apply my skills and contribute to innovative projects.
+            Let's collaborate and build something amazing together!
             </p>
-            <Link><button className='btn'><img src={btnImg} alt="hire icon" className='btnImg'/>Hire me</button></Link>
+            <Link to="contact" smooth={true} duration={500}>
+              <button className='btn'>
+                <img src={btnImg} alt="hire icon" className='btnImg'/>
+                Hire me
+              </button>
+            </Link>
         </div>
         <img src={bg} alt="" className='bg'/>
     </section>

@@ -10,7 +10,7 @@
 .bg {
     position: absolute;
     top: -5rem;
-    right: -8rem;  /* try with 0 fpr other image*/
+    right: -8rem;  /* try with 0 for other image*/
     z-index: -1;
     object-fit: cover;
     height: 100vh;
@@ -40,6 +40,7 @@
     font-size: medium;
     font-weight: 300;
     letter-spacing: 1px;
+    max-width: 700px;
 }
 
 .btn {
@@ -48,11 +49,12 @@
     padding: 0.75rem 1.5rem;
     border: none;
     border-radius: 2rem;
+    cursor: pointer;
 }
 
 .btnImg {
     object-fit: cover;
-    margin: 0 0.25rem;
+    margin: 0 0.25rem -3px 0.25rem;
     height: 1rem;
 }
 
