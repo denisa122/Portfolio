@@ -59,6 +59,10 @@
 }
 
 @media screen and (max-width:840px) {
+    #intro {
+        height: 100vh;
+    }
+    
     .bg {
         /*right: -10vw;  for other hero image maybe*/
     }

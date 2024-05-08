@@ -15,7 +15,7 @@ const Intro = () => {
             As I embark on my journey to become a proficient web developer, I'm eagerly seeking opportunities to apply my skills and contribute to innovative projects.
             Let's collaborate and build something amazing together!
             </p>
-            <Link to="contact" smooth={true} duration={500}>
+            <Link to="contact" smooth={true} duration={500} offset={-50}>
               <button className='btn'>
                 <img src={btnImg} alt="hire icon" className='btnImg'/>
                 Hire me

@@ -1,22 +1,29 @@
-import Navbar from "./components/NavBar/navbar";
-import Intro from "./components/Intro/intro";
-import Skills from "./components/Skills/skills";
-import Projects from "./components/Projects/projects";
-import Experience from "./components/Experience/experience";
-import Contact from "./components/Contact/contact";
 import Footer from "./components/Footer/footer";
+import Frontpage from "./components/Frontpage/Frontpage";
+
+import Gallaria from "./components/Projects/Gallaria";
+import Terrateas from "./components/Projects/Terrateas";
+import Capwizzards from "./components/Projects/Capwizzards";
+import Projectmanager from "./components/Projects/Projectmanager";
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar/>
-      <Intro/>
-      <Skills/>
-      <Projects/>
-      <Experience/>
-      <Contact/>
-      <Footer/>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        
+      <Routes>
+          <Route path='/' element={<Frontpage />}/>
+          <Route path="/gallaria" element={<Gallaria />} />
+          <Route path="/terrateas" element={<Terrateas />} />
+          <Route path="/capwizzards" element={<Capwizzards />} />
+          <Route path="/projectmanager" element={<Projectmanager />} />
+        </Routes>
+  
+        <Footer/>
+      </div>
+    </BrowserRouter>
   );
 }
 

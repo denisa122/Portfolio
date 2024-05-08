@@ -1,6 +1,6 @@
 #projects {
     margin: 0 auto;
-    /* min-height: calc(100vh - 5rem); */
+    /* min-height: calc(100vh - 5rem);  */
     width: 100vw;
     max-width: 65rem;
     display: flex;
@@ -12,35 +12,67 @@
 }
 
 .projectsTitle {
-    margin: 1.5rem 0;
     font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem ;
 }
 
 .projectsDescription {
     font-size: 1rem;
     font-weight: 300;
     max-width: 52rem;
+    padding: 0 2rem;
 }
 
-.projectsImgs {
+.allProjectsContainer {
     display: flex;
-    align-items: center;
+    flex-direction: column; 
     justify-content: center;
-    flex-wrap: wrap;
-    width: 100vw;
-    max-width: 65rem;
+    align-items: center;
+    margin: 1.5rem;
 }
 
-.projectsImg {
-    object-fit: cover;
-    height: 20rem;
-    margin: 0.5rem;
-    cursor: pointer;
+.projectContainer {
+    text-align: center;
+    width: 28rem;
+    padding: 1rem;
 }
+
+.projectContainer p {
+    padding: 0.4rem;
+}
+
+.projectCard {
+    background-color: rgb(50, 50, 50);
+    border-radius: 0.5rem;
+    box-shadow: 0 3px 10px var(--primary-shadow);
+    padding: 20px;
+    margin: 10px;
+    height: 50vh;
+}
+
+.column {
+    display: flex;
+    flex-direction: row;
+}
+
+.projectImg {
+    width: 240px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.projectDescription {
+    margin-bottom: 6px;
+}
+
+.projectLink {
+    color: #FCEC5C;
+}
+
 
 /* Check the final max-width when I upload the final photos*/
 @media screen and (max-width:700px) {
-    .projectsImg {
-        height: 48vw;
-    }
+    
 }

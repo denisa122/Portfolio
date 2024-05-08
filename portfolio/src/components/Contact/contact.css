@@ -1,6 +1,6 @@
 #contactPage {
     margin: 0 auto;
-    min-height: calc(100vh - 5rem);
+    /* min-height: calc(100vh - 5rem); */
     width: 100vw;
     max-width: 65rem;
     text-align: center;
@@ -58,6 +58,7 @@
 .links {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .link {
