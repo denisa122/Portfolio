@@ -6,7 +6,7 @@ import ProjectPhoto from '../../assets/project.png'
 
 import './projectDescriptionPages.css';
 
-const Gallaria = () => {
+const Terrateas = () => {
   return (
     <div className='projectDetailsContainer'>
       <Link to='/' className='backLink'>Back to homepage</Link>
@@ -48,4 +48,4 @@ const Gallaria = () => {
   )
 }
 
-export default Gallaria
+export default Terrateas
