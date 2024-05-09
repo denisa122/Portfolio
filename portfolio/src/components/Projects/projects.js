@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+
 import './projects.css';
 
 import Gallaria from '../../assets/gallaria.png';
@@ -21,7 +22,7 @@ const Projects = () => {
             <div className='projectContainer projectCard'>
               <img
               src={Gallaria}
-              alt="expense-tracker"
+              alt="Gallaria-logo"
               loading="lazy"
               className="projectImg"
               style={{width: '200px'}}
@@ -34,7 +35,7 @@ const Projects = () => {
             <div className='projectContainer projectCard'>
               <img
               src={TerraTeas}
-              alt="expense-tracker"
+              alt="TerraTeas-logo"
               loading="lazy"
               className="projectImg"
               />
@@ -49,7 +50,7 @@ const Projects = () => {
             <div className='projectContainer projectCard'>
               <img
               src={CapWizards}
-              alt="expense-tracker"
+              alt="CapWizards-logo"
               loading="lazy"
               className="projectImg"
               />
@@ -61,7 +62,7 @@ const Projects = () => {
             <div className='projectContainer projectCard'>
               <img
               src={ProjectManagementApplication}
-              alt="expense-tracker"
+              alt="ProjectManagementApplication-logo"
               loading="lazy"
               className="projectImg"
               style={{width: '280px', marginTop: '40px'}}
