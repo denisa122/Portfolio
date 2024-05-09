@@ -19,9 +19,9 @@ const Gallaria = () => {
         <div className='projectImgContainer'>
           <img
             src={ProjectPhoto}
-            alt="TerraTeas-logo"
+            alt="Gallaria-screenshot"
             loading="lazy"
-            className="projectImg"
+            className="projectImage"
           />
         </div>
         <div className='projectSpecificationsContainer'>
@@ -32,7 +32,7 @@ const Gallaria = () => {
             For the website, which serves as a “digital art gallery”, users can browse the available items and add them to the shopping cart, as well as being able to view their profile and previous orders.
           </p> <br></br>
           <p>
-            <h3>GitHub repository: </h3> <a href='https://github.com/NXTsk/Gallaria' className='projectRepoLink'>https://github.com/NXTsk/Gallaria</a>
+            <h3>GitHub repository: </h3> <a href='https://github.com/NXTsk/Gallaria' className='projectRepoLink' target='_blank'>https://github.com/NXTsk/Gallaria</a>
           </p> <br></br>
           <p>
             <h3>Version Control:</h3> Git was utilized for version control, with the project repository hosted on GitHub, providing collaboration and code management capabilities

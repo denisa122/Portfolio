@@ -9,6 +9,7 @@
 .projectDetails {
     display: flex;
     flex-direction: row;
+    margin-top: 1.5rem;
 }
 
 .projectImgContainer {
@@ -16,14 +17,13 @@
     text-align: center;
 }
 
-.projectImg {
+.projectImage {
     width: 600px;
 }
 
 .projectSpecificationsContainer{
     flex: 1;
     text-align: justify;
-    margin-top: 55px; /*Change when I have the final photo*/
 }
 
 h1 {
