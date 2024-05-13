@@ -28,7 +28,7 @@ const Projects = () => {
               <p className='projectDescription'>
                 Gallaria is a dynamic and user-friendly image gallery application designed to showcase visual content seamlessly.
               </p>
-              <Link to='/gallaria' className="projectLink">Check it Out</Link>
+              <Link to='/gallaria' className="projectLink"><strong>Check it Out</strong></Link>
             </div>
             <div className='projectContainer projectCard'>
               <img
@@ -40,7 +40,7 @@ const Projects = () => {
               <p className='projectDescription'>
               TerraTeas is an online tea shop that specializes in premium teas from around the world, emphasizing the rich stories and origins behind each selection.
               </p>
-              <Link to='/terrateas' className="projectLink">Check it Out</Link>
+              <Link to='/terrateas' className="projectLink"><strong>Check it Out</strong></Link>
             </div>
           </div>
           
@@ -55,7 +55,7 @@ const Projects = () => {
               <p className='projectDescription'>
               Cap Wizards is an eco-conscious web shop that offers a unique selection of recycled bottle caps, promoting sustainability.
               </p>
-              <Link to='/capwizzards' className="projectLink">Check it Out</Link>
+              <Link to='/capwizzards' className="projectLink"><strong>Check it Out</strong></Link>
             </div>
             <div className='projectContainer projectCard'>
               <img
@@ -68,7 +68,7 @@ const Projects = () => {
               <p className='projectDescription'>
               Currently in development, this project management application is designed to enhance team productivity and project tracking.
               </p>
-              <Link to='/projectmanager' className="projectLink">Check it Out</Link>
+              <Link to='/projectmanager' className="projectLink"><strong>Check it Out</strong></Link>
             </div>
           </div>
 

@@ -3,22 +3,18 @@
 }
 
 .backLink {
-    color: #FCEC5C;
+    color: #941C2F;
+    text-decoration: underline;
+}
+
+.projectTitle {
+    margin-top: 20px;
 }
 
 .projectDetails {
     display: flex;
     flex-direction: row;
     margin-top: 1.5rem;
-}
-
-.projectImgContainer {
-    flex: 1;
-    text-align: center;
-}
-
-.projectImage {
-    width: 600px;
 }
 
 .projectSpecificationsContainer{
@@ -32,11 +28,12 @@
 }
 
 .projectSpecificationsContainer h3 {
-    color: #FCEC5C;
+    color: #941C2F;
 }
 
 .projectSpecificationsContainer a {
-    color: white;
+    color: #7a7ac7;
     text-decoration: underline;
+    font-weight: 600;
 }
 

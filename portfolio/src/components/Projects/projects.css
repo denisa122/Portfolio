@@ -44,7 +44,7 @@
 }
 
 .projectCard {
-    background-color: rgb(50, 50, 50);
+    background-color: #b5b5e0;
     border-radius: 0.5rem;
     box-shadow: 0 3px 10px var(--primary-shadow);
     padding: 20px;
@@ -68,7 +68,7 @@
 }
 
 .projectLink {
-    color: #FCEC5C;
+    color: #941C2F;
 }
 
 
