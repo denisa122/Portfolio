@@ -12,7 +12,7 @@ const Intro = () => {
             <span className='hello'>Hello,</span>
             <span className='introText'>I'm <span className='introName'>Denisa</span> <br/> Web Development Student</span>
             <p className='introPara'>
-            As I embark on my journey to become a proficient web developer, I'm eagerly seeking opportunities to apply my skills and contribute to innovative projects.
+            I'm eagerly seeking opportunities to apply my skills and contribute to innovative projects.
             Let's collaborate and build something amazing together!
             </p>
             <Link to="contact" smooth={true} duration={500} offset={-50}>
