@@ -13,9 +13,7 @@ const Projects = () => {
     <section id='projects' className='projects'>
       <h2 className="projectsTitle">My Portfolio</h2>
       <span className='projectsDescription'>
-         Welcome to my projects showcase! Here, you'll find a selection of my most significant web development endeavors. 
-         From collaborative efforts with classmates to solo projects, each one represents a milestone in my journey as a web developer.
-         These projects highlight my diverse skill set.
+         Welcome to my projects showcase! Here, you'll find a selection of my most significant web development endeavors.
       </span>
       <div className='allProjectsContainer'>
           <div className='column'>
@@ -55,7 +53,7 @@ const Projects = () => {
               className="projectImg"
               />
               <p className='projectDescription'>
-              Cap Wizards is an eco-conscious web shop that offers a unique selection of recycled bottle caps, promoting sustainability through innovative recycling initiatives.
+              Cap Wizards is an eco-conscious web shop that offers a unique selection of recycled bottle caps, promoting sustainability.
               </p>
               <Link to='/capwizzards' className="projectLink">Check it Out</Link>
             </div>

@@ -35,7 +35,7 @@ h3 {
     color: #FCEC5C;
 }
 
-a {
+.projectSpecificationsContainer a {
     color: white;
     text-decoration: underline;
 }

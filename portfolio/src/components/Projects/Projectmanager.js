@@ -2,28 +2,23 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
 
-import ProjectPhoto from '../../assets/project.png'
-
 import './projectDescriptionPages.css';
 
 const Projectmanager = () => {
+  
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [])
+  
   return (
     <div className='projectDetailsContainer'>
       <Link to='/' className='backLink'>Back to homepage</Link>
       <h1 className='projectTitle'>Project Management Application</h1>
       <p className='projectDescription'>
       Currently in development, this project management application is designed to enhance team productivity and project tracking. The application will allow users to create projects, assign tasks, and track progress, with a focus on user-friendly design and functionality. 
-      The application will be built using React.js for the frontend and Node.js for the backend, with MongoDB as the database. The application will also include user authentication and authorization features to ensure data security and privacy. 
+      The application will also include user authentication and authorization features to ensure data security and privacy. 
       </p> <br></br>
       <div className='projectDetails'>
-        <div className='projectImgContainer'>
-          <img
-            src={ProjectPhoto}
-            alt="Project Management Application-screenshot"
-            loading="lazy"
-            className="projectImage"
-          />
-        </div>
         <div className='projectSpecificationsContainer'>
           <p className='projectContext'>
             <h3>Context: </h3> For this project, I opted for working individually rather than in a group, because I believe this will help me practice all the knowledge and skills that I earned throughout my education better, before joining the IT job market. 
@@ -34,16 +29,16 @@ const Projectmanager = () => {
             <h3>GitHub repository: </h3> <a href='https://github.com/denisa122/ProjectManagementApp  ' className='projectRepoLink' target='_blank'>https://github.com/denisa122/ProjectManagementApp</a>
           </p> <br></br>
           <p>
-            <h3>Version Control:</h3> Git is utilized for version control, with the project repository hosted on GitHub, providing collaboration and code management capabilities
+            <h3>Version Control:</h3> Git is utilized for version control, with the project repository hosted on GitHub, providing collaboration and code management capabilities.
           </p> <br></br>
           <p>
-            <h3>Database: </h3> MongoDB Atlas is used to store and manage user data, project information, and other relevant content
+            <h3>Database: </h3> MongoDB Atlas is used to store and manage user data, project information, and other relevant content.
           </p> <br></br>
           <p>
             <h3>Technologies Used: </h3> React.js, Node.js, Express.js, MongoDB, HTML, CSS, JavaScript
           </p> <br></br>
           <p>
-            <h3>User Authentication: </h3> JWT (JSON Web Tokens) are used for user authentication, providing a secure way to transmit information between parties
+            <h3>User Authentication: </h3> JWT (JSON Web Tokens) are used for user authentication, providing a secure way to transmit information between parties.
           </p>
         </div>
       </div>
