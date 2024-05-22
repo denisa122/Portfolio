@@ -57,9 +57,9 @@
     }
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:500px) {
     .skillBarText>p {
-        font-size: 3vw;
+        font-size: 3.25vw;
     }
     .skillBarImg {
         height: 2.25rem;
@@ -67,5 +67,10 @@
     }
     .skillBarText>h2 {
         font-size: 5vw;
+    }
+
+    .skillBar {
+        margin: 1rem 0;
+        padding: 1.5rem 1.5rem;
     }
 }

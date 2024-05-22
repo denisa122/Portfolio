@@ -9,18 +9,18 @@
 
 .bg {
     position: absolute;
-    top: -5rem;
-    right: -8rem;  /* try with 0 for other image*/
+    bottom: 0;
+    right: -17rem;  /* try with 0 for other image*/
     z-index: -1;
     object-fit: cover;
-    height: 100vh;
+    height: 90vh;
 }
 
 .introContent {
     height: 100vh;
     width: 100vw;
     padding: 2rem;
-    font-size: 3rem;
+    font-size: 2.25rem;
     font-weight: 700;
     display: flex;
     flex-direction: column;
@@ -28,7 +28,7 @@
 }
 
 .hello {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     font-weight: 100;
 }
 
@@ -40,7 +40,7 @@
     font-size: medium;
     font-weight: 300;
     letter-spacing: 1px;
-    max-width: 700px;
+    max-width: 480px;
 }
 
 .btn {
@@ -59,20 +59,61 @@
     height: 0.75rem;
 }
 
-@media screen and (max-width:840px) {
+@media screen and (min-width: 1280px) {
+    .introPara{
+        max-width: 700px;
+    }
+
+    .introContent {
+        font-size: 3rem;
+    }
+
+    .hello {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px){
+    .introPara{
+        max-width: 600px;
+    }
+
+    .introContent {
+        font-size: 2.5rem;
+    }
+
+    .hello {
+        font-size: 1.75rem;
+    }
+}
+
+@media screen and (max-width:899px) {
     #intro {
         height: 100vh;
     }
     
     .bg {
-        /*right: -10vw;  for other hero image maybe*/
+        display: none;
     }
 
     .introContent {
-        font-size: 10vw;
+        font-size: 8vw;
+    }
+
+    .introPara {
+        font-size: 1.25rem;
+        max-width: 700px;
     }
 
     .hello { 
         font-size: 4.5vw;
+    }
+
+    .btn {
+        width: 250px;
+    }
+
+    .hireLink {
+        margin-top: 12px;
     }
 }
