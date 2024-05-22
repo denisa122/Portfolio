@@ -39,7 +39,7 @@ const Capwizzards = () => {
           </p> <br></br>
           <p>
             <h3>Hosting: </h3> The application is hosted on One.com, at this <a href='https://denisaneagu.com/CapWizards/' target='_blank'>link</a>. <br></br>
-            In order to try the admin functionality, please use the following credentials: username: admin, password: password
+            In order to try the admin functionality, please use the following credentials: username - admin, password - password
           </p>
         </div>
       </div>

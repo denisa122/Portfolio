@@ -23,20 +23,6 @@
     margin: 1rem;
     padding: 1.5rem 2rem;
     border-radius: 0.5rem;
-    background-color: #b5b5e0;
+    background-color: #cdcddb;
     text-align: justify;
 }
-
-/* .experienceImgs {
-    margin: 1rem 0;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.experienceImg {
-    object-fit: cover;
-    width: 800px;
-    min-width: 9rem;
-    margin: auto;
-    padding: 0.25rem;
-} */

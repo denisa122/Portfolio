@@ -39,6 +39,10 @@ const Projectmanager = () => {
           </p> <br></br>
           <p>
             <h3>User Authentication: </h3> JWT (JSON Web Tokens) are used for user authentication, providing a secure way to transmit information between parties.
+          </p> <br></br>
+          <p>
+          <h3>Hosting: </h3> The application is hosted on Render.com, at this <a href='https://collabhub-10hd.onrender.com/' target='_blank'>link</a>. (It takes a while for the link to load) <br></br>
+          In order to try the project leader functionality, please use the following credentials: email -  emmetmoss@email.com, password - password
           </p>
         </div>
       </div>
