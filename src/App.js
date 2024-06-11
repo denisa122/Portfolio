@@ -1,5 +1,5 @@
 import Footer from "./components/Footer/footer";
-import Frontpage from "./components/Frontpage/Frontpage";
+import Frontpage from "./components/Frontpage/frontpage";
 
 import Gallaria from "./components/Projects/Gallaria";
 import Terrateas from "./components/Projects/Terrateas";
