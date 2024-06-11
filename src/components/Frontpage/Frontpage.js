@@ -12,6 +12,8 @@ const Frontpage = () => {
     const projectsRef = useRef(null);
 
     useEffect(() => {
+        console.log("Frontpage component rendered");
+
         if (location.state && location.state.scrollPosition === 'projects') {
             projectsRef.current.scrollIntoView({ behavior: "smooth" });
         } else {

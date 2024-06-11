@@ -1,20 +1,22 @@
 import Footer from "./components/Footer/footer";
-import Frontpage from "./components/Frontpage/frontpage";
+import Frontpage from "./components/Frontpage/Frontpage";
 
 import Gallaria from "./components/Projects/Gallaria";
 import Terrateas from "./components/Projects/Terrateas";
 import Capwizzards from "./components/Projects/Capwizzards";
 import Projectmanager from "./components/Projects/Projectmanager";
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 function App() {
+  console.log("App component rendered");
+  
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="App">
         
       <Routes>
-          <Route path='/' element={<Frontpage />}/>
+          <Route path="/" element={<Frontpage />} /> 
           <Route path="/gallaria" element={<Gallaria />} />
           <Route path="/terrateas" element={<Terrateas />} />
           <Route path="/capwizzards" element={<Capwizzards />} />
@@ -23,7 +25,7 @@ function App() {
   
         <Footer/>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
